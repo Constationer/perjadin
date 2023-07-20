@@ -25,7 +25,7 @@
               <div class="card-body">
                 <div class="form-group">
                   <label>Nama Organisasi Perangkat Daerah</label>
-                  <input type="text" class="form-control" name="nama">
+                  <input type="text" class="form-control" name="nama" required>
                 </div>
               </div>
               <div class="card-footer text-right">

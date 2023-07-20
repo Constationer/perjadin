@@ -29,11 +29,11 @@
               <div class="card-body">
                 <div class="form-group">
                   <label>No ST</label>
-                  <input type="text" class="form-control" name="no_st">
+                  <input type="text" class="form-control" name="no_st" required>
                 </div>
                 <div class="form-group">
                   <label>No SPPD</label>
-                  <input type="text" class="form-control" name="no_sppd">
+                  <input type="text" class="form-control" name="no_sppd" required>
                 </div>
                 <div class="form-group">
                   <label>Pegawai</label>
@@ -46,15 +46,15 @@
                 </div>
                 <div class="form-group">
                   <label>Tanggal Pelaksanaan</label>
-                  <input type="date" class="form-control" name="tanggal_pelaksanaan">
+                  <input type="date" class="form-control" name="tanggal_pelaksanaan" required>
                 </div>
                 <div class="form-group">
                   <label>Tanggal Selesai</label>
-                  <input type="date" class="form-control" name="tanggal_selesai">
+                  <input type="date" class="form-control" name="tanggal_selesai" required>
                 </div>
                 <div class="form-group">
                   <label>Lokasi</label>
-                  <select class="form-control" name="lokasi_check" id="lokasi_check">
+                  <select class="form-control" name="lokasi_check" id="lokasi_check" required>
                     <option value="Dalam Kota">Dalam Kota</option>
                     <option value="Dinas Luar">Dinas Luar</option>
                   </select>
@@ -65,7 +65,7 @@
                 </div>
                 <div class="form-group">
                   <label>Kendaraan</label>
-                  <select class="form-control" name="kendaraan" id="kendaraan">
+                  <select class="form-control" name="kendaraan" id="kendaraan" required>
                     <option value="Mobil">Mobil</option>
                     <option value="Pesawat">Pesawat</option>
                     <option value="Kereta Api">Kereta Api</option>
@@ -77,11 +77,11 @@
                 </div>
                 <div class="form-group">
                   <label>Uang Harian</label>
-                  <input type="text" class="form-control" name="uang_harian">
+                  <input type="text" class="form-control" name="uang_harian" required>
                 </div>
                 <div class="form-group">
                   <label>Penginapan</label>
-                  <select class="form-control" name="penginapan" id="penginapan">
+                  <select class="form-control" name="penginapan" id="penginapan" required>
                     <option value="Tidak">Tidak</option>
                     <option value="Ya">Ya</option>
                   </select>

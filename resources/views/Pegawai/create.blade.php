@@ -25,15 +25,15 @@
               <div class="card-body">
                 <div class="form-group">
                   <label>NIP</label>
-                  <input type="text" class="form-control" name="nip">
+                  <input type="text" class="form-control" name="nip" required>
                 </div>
                 <div class="form-group">
                   <label>Nama</label>
-                  <input type="text" class="form-control" name="nama">
+                  <input type="text" class="form-control" name="nama" required>
                 </div>
                 <div class="form-group">
                   <label>OPD</label>
-                  <select class="form-control" name="opd_id">
+                  <select class="form-control" name="opd_id" required>
                     @foreach($opd as $data)
                       <option value="{{ $data->id }}">{{ $data->nama }}</option>
                     @endforeach
@@ -41,7 +41,7 @@
                 </div>
                 <div class="form-group">
                   <label>Golongan</label>
-                  <select class="form-control" name="golongan">
+                  <select class="form-control" name="golongan" required>
                       <option value="III/A">III/A</option>
                       <option value="III/B">III/B</option>
                       <option value="III/C">III/C</option>

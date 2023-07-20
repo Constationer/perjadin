@@ -62,6 +62,9 @@ class SpjController extends Controller
         if ($request->input('penginapan') === 'Tidak') {
             $hotel = '-';
             $uang_hotel = 0;
+        } else {
+            $hotel = $request->input('hotel');
+            $uang_hotel = $request->input('uang_hotel');
         }
 
         Spj::create([
